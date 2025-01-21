@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmc.Common", "Zmc.Common\Zmc.Common.csproj", "{7DAEFBA1-C33E-4D4B-BF0B-1B3EAD16241D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmc.Driver", "Zmc.Driver\Zmc.Driver.csproj", "{394523A5-2545-4747-9298-B8C6E3443F45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmc.Infrastructure", "Zmc.Infrastructure\Zmc.Infrastructure.csproj", "{D1CF9AFA-51C5-4E80-BB94-0C71568138CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmc.Core", "Zmc.Core\Zmc.Core.csproj", "{C17F2729-0DBC-4351-B8B4-E00A824048E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmc.Domain", "Zmc.Domain\Zmc.Domain.csproj", "{CDF7523D-1D43-447F-A3CB-99D1BEF27A1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zmc.AvaApp", "Zmc.AvaApp\Zmc.AvaApp.csproj", "{3A472CB6-62C0-4369-8ED1-2887E34C18D0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DAEFBA1-C33E-4D4B-BF0B-1B3EAD16241D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DAEFBA1-C33E-4D4B-BF0B-1B3EAD16241D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DAEFBA1-C33E-4D4B-BF0B-1B3EAD16241D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DAEFBA1-C33E-4D4B-BF0B-1B3EAD16241D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{394523A5-2545-4747-9298-B8C6E3443F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{394523A5-2545-4747-9298-B8C6E3443F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{394523A5-2545-4747-9298-B8C6E3443F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{394523A5-2545-4747-9298-B8C6E3443F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1CF9AFA-51C5-4E80-BB94-0C71568138CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1CF9AFA-51C5-4E80-BB94-0C71568138CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1CF9AFA-51C5-4E80-BB94-0C71568138CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1CF9AFA-51C5-4E80-BB94-0C71568138CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C17F2729-0DBC-4351-B8B4-E00A824048E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17F2729-0DBC-4351-B8B4-E00A824048E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17F2729-0DBC-4351-B8B4-E00A824048E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17F2729-0DBC-4351-B8B4-E00A824048E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF7523D-1D43-447F-A3CB-99D1BEF27A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF7523D-1D43-447F-A3CB-99D1BEF27A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF7523D-1D43-447F-A3CB-99D1BEF27A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF7523D-1D43-447F-A3CB-99D1BEF27A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A472CB6-62C0-4369-8ED1-2887E34C18D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A472CB6-62C0-4369-8ED1-2887E34C18D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A472CB6-62C0-4369-8ED1-2887E34C18D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A472CB6-62C0-4369-8ED1-2887E34C18D0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
