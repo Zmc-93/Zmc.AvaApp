@@ -14,7 +14,22 @@
              to set the actual DataContext for runtime, set the DataContext property in code (look at App.axaml.cs) -->
         <vm:MainWindowViewModel/>
     </Design.DataContext>
-
-    <TextBlock Text="{Binding Greeting}" HorizontalAlignment="Center" VerticalAlignment="Center"/>
-
+    <Panel>
+        <Panel.Styles>
+            <Style Selector="Grid.Blur">
+                <Setter Property="Effect" Value="blur(10)"></Setter>
+            </Style>
+        </Panel.Styles>
+        <Grid
+            ColumnDefinitions="Auto, *">
+            <Border
+           Grid.Row="2"
+           Grid.Column="0"
+           Padding="0"
+           HorizontalAlignment="Left"
+           Theme="{DynamicResource CardBorder}">
+               
+            </Border>
+        </Grid>
+    </Panel>
 </Window>
